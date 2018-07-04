@@ -1,0 +1,78 @@
+body{
+	font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+}
+.App {
+  margin: 100px auto;
+  text-align: center;
+  width: 40%;
+  background: #f7f7f7;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+.header{
+  padding-top:10px;;
+  color: #2980b9;
+	min-height: 50px;
+	max-height: auto;
+	line-height: 2;
+}
+.header h2{
+  display: inline;
+}
+input{
+  padding: 20px;
+  border: 1px solid #fff;
+}
+input:focus{
+  border: 2px solid #2980b9;
+}
+.lists, input{
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 20px;
+  outline: none;
+}
+.lists{
+  color: #333;
+  line-height: 2;
+}
+.lists:nth-child(2n){
+  background: #fff;
+}
+
+span{
+  float:right;
+  height: 34px;
+  width: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.strike{
+  text-decoration: line-through;
+  color: gray;
+}
+.fa-times{
+  color: red;
+}
+.logo {
+	float:left;
+	margin-left: 10px;
+ 	font-size: 30px;
+	line-height: 1.5;
+}
+.fa-edit{
+  font-size: 30px;
+	padding: 0;
+}
+
+@media(max-width: 768px){
+	.App {
+	  margin: 50px auto;
+	  text-align: center;
+	  width: 90%;
+	  background: #f7f7f7;
+	  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+	}
+}
